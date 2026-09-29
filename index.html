@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charest="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>کانون های فرهنگی دانشگاه ایران</title>
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="scanline"></div>
+
+    <div class="glow-bg"></div>
+    <main class="poster-container">
+
+    <header class="poster-header">
+        <div class="logo-box">
+            <img src="" alt="لوگو کانون های فرهنگی دانشگاه ایران" class="glowing=logo">
+        </div>
+        <h1 class="poster-title">درگاه کانون های فرهنگی دانشگاه ایران</h1>
+        <p  class="poster-desc">برای عضویت و دسترسی سریع:کانون مدنظر را لمس کنید</p>
+    </header>
+    
+    <section class="clubs-grid">
+        <a href="https://t.me/helal_iran" target="_blank" class="clubs-card neon-red" id="helal" onclick="handleCardClick(event)">
+            <span class="club-icon">⛑️</span>
+            <div><span class="club-name">کانون هلال احمر</span></div>
+            
+            <div class="card-glow"></div>
+        </a>
+        <a href="https://t.me/kaiums" target="_blank" class="clubs-card neon-amber" id="hiva" onclick="handleCardClick(event)">
+            <span class="club-icon">🖋️</span>
+            <div><span class="club-name">کانون شعر و ادب هیوا</span></div>
+            <div class="card-glow"></div>
+
+        </a>
+        <a href="https://t.me/IUMS_Mahdaviat" target="_blank" class="clubs-card neon-mint" id="mahdavi" onclick="handleCardClick(event)">
+            <span class="club-icon">🕌</span>
+            <div><span class="club-name">کانون مهدویت</span></div>
+            <div class="card-glow"></div>
+
+        </a>
+        <a href="https://t.me/hodhod_iums" target="_blank" class="clubs-card neon-aqua" id="hodhod" onclick="handleCardClick(event)">
+            <span class="club-icon">🕊</span>
+            <div><span class="club-name">کانون هدهد </span></div>
+            <div class="card-glow"></div>
+
+        </a>
+        <a href="https://t.me/mahamchariity" target="_blank" class="clubs-card neon-blue" id="maham" onclick="handleCardClick(event)">
+            <span class="club-icon">🫂</span>
+            <div><span class="club-name">کانون خیریه مهام</span></div>
+            <div class="card-glow"></div>
+
+        </a>
+        <a href="https://t.me/Namaiums" target="_blank" class="clubs-card neon-orange" id="nama" onclick="handleCardClick(event)">
+            <span class="club-icon">🎬</span>
+            <div><span class="club-name">کانون فیلم نما</span></div>
+            <div class="card-glow"></div>
+
+        </a>
+        <a href="https://t.me/saba_musicgroup" target="_blank" class="clubs-card neon-cyan" id="saba" onclick="handleCardClick(event)">
+            <span class="club-icon">🎼</span>
+            <div><span class="club-name">کانون موسیقی صبا</span></div>
+            <div class="card-glow"></div>
+
+        </a>
+        <a href="https://t.me/mahoor_iums" target="_blank" class="clubs-card neon-sunset" id="mahor" onclick="handleCardClick(event)">
+            <span class="club-icon">🎨</span>
+            <div><span class="club-name">کانون ماهور</span></div>
+            <div class="card-glow"></div>
+
+        </a>
+        <a href="https://t.me/shabahangiums" target="_blank" class="clubs-card neon-lime" id="shabahang" onclick="handleCardClick(event)">
+            <span class="club-icon">🚞</span>
+            <div><span class="club-name">کانون شباهنگ و گردشگری</span></div>
+            <div class="card-glow"></div>
+
+        </a>
+        <a href="https://t.me/iranunigameclub" target="_blank" class="clubs-card neon-purple" id="bazi" onclick="handleCardClick(event)">
+            <span class="club-icon">🎮</span>
+            <div><span class="club-name">کانون بازی و سرگرمی</span></div>
+            <div class="card-glow"></div>
+
+        </a>
+        <a href="https://t.me/zehn_poya" target="_blank" class="clubs-card neon-synthwave" id="poya" onclick="handleCardClick(event)">
+            <span class="club-icon">🧠</span>
+            <div><span class="club-name">کانون ذهن پویا</span></div>
+            <div class="card-glow"></div>
+
+        </a>
+        <a href="https://t.me/ayande_rooshan" target="_blank" class="clubs-card neon-indigo" id="ayande" onclick="handleCardClick(event)">
+            <span class="club-icon">💫</span>
+            <div><span class="club-name">کانون آینده روشن</span></div>
+            <div class="card-glow"></div>
+
+        </a>
+        <a href="https://t.me/Samar_iums" target="_blank" class="clubs-card neon-lavender" id="samar" onclick="handleCardClick(event)">
+            <span class="club-icon">🎭</span>
+            <div><span class="club-name">کانون تئاتر سمر</span></div>
+            <div class="card-glow"></div>
+
+        </a>
+        <a href="" target="_blank" class="clubs-card neon-chartreuse" id="karafarini" onclick="handleCardClick(event)">
+            <span class="club-icon">💯</span>
+            <div><span class="club-name">کانون موفقیت وکارآفرینی</span></div>
+            <div class="card-glow"></div>
+
+        </a>
+                
+
+    </section>
+
+    <footer class="poster-footer">
+        <button class="share-btn" id="shareBtn">
+            <span class="btn-icon">⚡️</span>
+            <span class="btn-text">ارسال پوستر به دوستان</span>
+        </button>
+        <div class="creator-badge">
+            <p>طراح و توسعه دهنده:<span class="auther-name">مائده احمدی</span></p>
+        </div>
+    </footer>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
