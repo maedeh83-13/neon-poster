@@ -54,6 +54,9 @@
 .neon-indigo{border: 2px solid var(--neon-indigo); box-shadow: 0 0 10px rgba(127,0,255,0.2);}
 .neon-lavender{border: 2px solid var(--neon-lavender); box-shadow: 0 0 10px rgba(214,164,255,0.2);}
 .neon-chartreuse{border: 2px solid var(--neon-chartreuse); box-shadow: 0 0 10px rgba(223,255,0,0.2);}
+.neon-pink{border: 2px solid var(--neon-pink}; box-shadow: 0 0 10px rgba(255,20,147,0.2);}
+.neon-DarkViolet{border: 2px solid var(--neon-DarkViolet); box-shadow: 0 0 10px rgba(157,0,255,0.2);}
+
 .clubs-grid{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
