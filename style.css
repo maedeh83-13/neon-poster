@@ -58,7 +58,7 @@
 
 
 .clubs-grid{
-    display: grid !important;
+    display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 12px;
     padding: 10px 0;
