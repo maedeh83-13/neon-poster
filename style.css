@@ -64,6 +64,9 @@
     display: block !important;
     margin: 0 auto !important;
 }
+.poster-title{
+    color: #ffffff;
+}
     
 .poster-container{
     max-width: 480px;
