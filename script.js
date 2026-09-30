@@ -3,31 +3,14 @@ tg.ready();
 tg.expand();
 tg.setHeaderColor('#000000')
 
-const shareBtn=document.getElementById('shareBtn');
-if (shareBtn){
-    shareBtn.addEventListener('click', async()=>{
-        const shareDate={
-            title:'درگاه هوشمند کانون های فرهنگی دانشگاه ایران',
-            text:'دسترسی سریع به کانال های کانون فرهنگی',
-            url:''
-        }
-
-    })
+const share={
+    'kanoon':{link:'https://t.me/iumskanoon'},
 }
-if (navigator.share){
-    try{
-        await navigator.share(shareData)
-    }catch(error){
-        console.log('اشتراک گذاری لغو شد یا خطایی رخ داد')
-    }
-}else{
-    try{
-        await navigator.clipboard.writeText();
-        alert('لینک با موفقیت کپی شد')
-    }catch(error){
-        alert('امکان کپی خودکار وجود ندارد.دستی کپی کنید')
-
-    }
+const farhangi=document.querySelector('.share-btn');
+if(farhangi){
+    farhangi.addEventListener('click', ()=>{
+        window.Telegram.WebApp.openTelegramLink('https://t.me/iumskanoon');
+    });
 }
 const kanoonData={
     'helal':{link:'https://t.me/helal_iran'},
