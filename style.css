@@ -84,7 +84,7 @@
 .poster-title{
     font-size: 1.4rem;
     font-weight: 800;
-    color: #F8F9FA;
+    color: #F8F9FA !important;
     text-shadow: 0 0 10px rgba(0,240,255,0.6),
                  0 0 20px rgba(0,240,255,0.3);
     letter-spacing: -0.5px;
