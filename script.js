@@ -27,6 +27,8 @@ const kanoonData={
     'ayande':{link:'https://t.me/ayande_rooshan'},
     'samar':{link:'https://t.me/Samar_iums'},
     'karafarini':{link:'https://t.me/SUCCESS_IUMS'},
+    'mava':{link:'https://t.me/maava_iums'},
+    'resane':{link:'https://t.me/iumsresaneh'},
 
 
 }
