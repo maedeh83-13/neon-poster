@@ -59,7 +59,7 @@
     padding: 10px 0;
 }
 .glowing-logo{
-    width: 50px;
+    width: 50px !important;
     height: auto;
     display: block;
     margin: 0 auto;
