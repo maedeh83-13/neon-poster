@@ -12,6 +12,13 @@ if(farhangi){
         window.Telegram.WebApp.openTelegramLink('https://t.me/iumskanoon');
     });
 }
+const conect=documen.querySelector('.admin-btn');
+if(conect){
+    conect.addEventListener('click',()=>{
+        window.Telegram.WebApp.openTelegramLink('https://t.me/iums_kadmin');
+    });
+}
+        
 const kanoonData={
     'helal':{link:'https://t.me/helal_iran'},
     'hiva':{link:'https://t.me/kaiums'},
