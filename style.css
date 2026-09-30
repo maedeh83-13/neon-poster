@@ -24,6 +24,8 @@
     --neon-indigo:#7f00ff;
     --neon-lavender:#d6a4ff;
     --neon-chartreuse:#dfff00;
+    --neon-pink:#ff1493;
+    --neon-DarkViolet:#bf00ff;
 }
 .clubs-card{
     display: flex;
