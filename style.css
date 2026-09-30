@@ -65,7 +65,7 @@
     margin: 0 auto !important;
 }
 .poster-title{
-    color: #ffffff !important;
+    color: var(--text-main-) !important;
 }
     
 .poster-container{
